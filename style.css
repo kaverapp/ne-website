@@ -1,0 +1,118 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    position: relative;
+    overflow: hidden;
+}
+#page1
+{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(251, 6, 6);
+    position: relative;
+   
+}
+#page1>video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#page1>nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0px 30px  ;
+    position: absolute;
+    height: 7vh;
+    width: 100vw;
+    
+
+}
+#page1>nav>img{
+    margin-top:-1.7vw ;
+    width: 9%;
+}
+#right-nav>button{
+    padding: 10px 20px;
+    border-radius:50px;
+    background-color: #0b48ed;
+    border: 1px white solid ;
+    color: white;
+    
+    font-size:10px ;
+}
+.bottom-page1{
+    height: 35vh;
+    width: 50vw;
+    position: absolute;
+    font-weight: 400;
+    bottom: 5%;
+    left:10% ;
+}
+.bottom-page1>h1{
+    font-size: 5vw;
+    font-weight:  100 ;
+    line-height:1;
+    color: rgb(242, 242, 238);
+}
+.bottom-page1-inner{
+    position: absolute;
+    bottom: 0%;
+    height: 35%;
+    width: 100%;
+   
+
+}
+.bottom-page1-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+bottom-page1-inner>button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    
+    color: #0b48ed;
+    font-size: 16px;
+
+}
+.bottom-page1-inner>h4{
+    font-size:1.3vw ;
+    font-weight: 100;
+    color: rgb(235, 221, 221);
+}
+#page2{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex-direction: column;
+    height: 100vh;
+    width:100vw ;
+    background-color: #0a3cce;
+    position: relative;
+    padding: 0vw 8vw;
+    color: beige;
+}
+#page2>h2{
+    margin-bottom: 3vw;
+    font-weight: 100;
+}
+#page2>h1{
+    font-weight: 100;
+    width: 90%;
+    line-height: 1.3;
+    font-size: 3.5vw;
+    color:rgba(255, 255, 255, 0.852) ;
+}
